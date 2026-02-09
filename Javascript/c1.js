@@ -1,3 +1,5 @@
+//mathods are first class objects in java
+
 (function greet(){
     console.log("Hello")
 })();// to avoid calling the function by its name again and again 
