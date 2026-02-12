@@ -1,3 +1,68 @@
+// // // #object creation
+// // const user={
+// //     name:"Aqwerty",
+// //     Age:34,
+// //     welcome:function()
+// //     {
+// //         console.log(`${this.name},welcome to ES6`)
+// //         console.log(this)
+// //     }
+// // }
+// // user.welcome()
+// // user.name="test"
+// // user.welcome()
+// // console.log(this.name)
+
+// // const employee={
+// //     name:"Ytrewq",
+// //     dept:"Accounts",
+// //     info:function(){
+// //         console.log(`Name: ${this.name}`)
+// //     }
+// // }
+// // employee.info()
+// // employee.name="zxcv"
+// // employee.info()
+// // console.log(this.name)
+// // let a=3
+// // function outer(){
+// //     let b=4;
+// //     let x=10;
+// //     // console.log(x)
+// // // }
+// // function inner(){
+// //     let c=5
+// //     console.log(a,b,c)
+// // }
+
+// // inner()
+// // }
+// // outer()
+// // // inner()
+// let abc={
+//     name:"qwerty",
+//     outer:function()
+//     {
+//         console.log("Here in log",this.name)
+//         inner=()=>
+//         {
+//             console.log("in inner",this.name)
+//             //lexical this works only with anonymous / arrow(=>) functions
+//         }
+//         inner();
+//     }
+// }
+// abc.outer()
+// let numbers=[10,20,30]
+// let [a,b,c,d]=numbers
+// const [x1,...y1]=numbers
+// console.log("a=",a,"  b=",b," c=",c," ",d,y1)
+
+// [a,b,c]=[c,b,a]
+// console.log("a=",a,"  b=",b," c=",c)
+
+
+
 //---------Array Destructuring---------//
 let numbers=[10,20,30]
 
