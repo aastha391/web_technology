@@ -120,7 +120,7 @@ function bakeCake(myCallback) {
 
     }, 2000);
 }
-bakeCake((error, success) => {
+bakeCake(function (error, success) {
     if (error) {
         console.log(error);
     } else {
